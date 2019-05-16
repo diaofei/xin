@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* 导航 */
+#nav{height: 32px;background: #f2f2f2}
+#nav .navshow{width: 1200px;height: 32px;margin: 0 auto;}
+#nav .deng{width: 200px; height:32px;float: left;}
+.deng h2{font-size: 12px;line-height: 32px;float: left;}
+.deng p{float: right;font-size: 12px;line-height: 32px;}
+.deng p a{cursor: pointer;color: #ec3e7d}
+.deng2{width: 662px;height: 32px;float: left;margin-left: 295px;}
+.deng2 ul li{float: left;}
+.deng2 ul li a{font-size: 12px;line-height: 32px;padding: 12px;color: black}
+.deng2 ul li a i{color: #ec3e7d}
+.dengd a img{display: inline-block;}
+.deng2 ul li:hover{background: white} 
+/* 账户列表 */
+#list{width: 89px;background: white; position: absolute;left: 535px;display: none;position: absolute;z-index: 1;}
+#list ul li{font-size: 12px;margin-left: 8px;}
+#list ul li a{color: black;display: block;padding: 3px;}
+#list ul li a:hover{color:#ec3e7d}
+/* 我的购物车 */
+#kong{width: 300px;height: 70px;background: white; margin-left: 470px;display: none;position: absolute;z-index: 1;}
+#kong p{font-size: 12px;margin-left: 50px;line-height: 20px;padding: 6px;}
+/* 二维码 */
+#eweima img{width: 100px;height: 100px;position: absolute;left: 1100px;display: none}
+/* logo */
+#logo{height: 95px;}
+#logo .logoshow{width: 1090px;height: 95px;margin: 0 auto; position: relative;}
+#logo .logoshow h1 img{float: left; margin-top: 20px;}
+/* 中心 */
+#zhongxin{height: 553px;}
+#zhongxin .zhongshow{width: 1090px;height: 553px;margin: 0 auto;margin-top: 40px;}
+.zhongshow h2 img{float: left;margin-top:60px}
+.log{width: 420px;height: 543px;float: left;position: relative;}
+.user{width: 350px;height: 22px;float: left; margin-top: 30px;margin-left: 30px}
+.user span{color: #5a5d6c;font-size: 21px;line-height: 22px}
+.user i{color: #5a5d6c;font-size: 12px;margin-left: 100px}
+.user em a{color: #ec3e7d;font-size: 12px;}
+.log form input{width: 300px;height: 36px;margin-left: 30px;margin-top: 30px;border: 1px solid gray;padding: 0 25px}
+.txt1{background: url(../img/q.png) no-repeat 5px -121px;}
+.pwd1{background: url(../img/q.png) no-repeat 5px -160px}
+.log form input:nth-of-type(3){width: 130px;padding: 0;}
+.log form input:hover{border-color: #f9a0b4}
+.log form input:nth-of-type(4){width: 20px;height: 20px;position: absolute;left: 0px;top:250px}
+.lab{position: absolute;left: 60px;top: 278px}
+.log form span a{position: absolute;left: 120px;top: 278px;color: #ed3f7e}
+.log form input:nth-of-type(5){width: 350px;background: #ec3e7d;display: block;line-height: 40px;color: #fff;font-size: 16px;margin-top: 80px}
+.log p{margin-top: 35px;margin-left: 30px;color: #3e3e3e;font-size: 14px}
+.log ul li{float: left;margin-top: 30px;margin-left: 30px}
+.log ul li img{display: inline-block;float: left;}
+.log ul li a{font-size: 13px;margin-bottom: 50px;float: left;margin-top: 7px;margin-left: 3px;color:#3e3e3e} 
